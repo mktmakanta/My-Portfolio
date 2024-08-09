@@ -1,5 +1,6 @@
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Social from "./SocialHandles";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
             </li>
           </ul>
         </nav>
+        <Social />
       </div>
     </>
   );
