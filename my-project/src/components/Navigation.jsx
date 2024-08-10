@@ -15,7 +15,9 @@ function Nav() {
     <nav className="px-14">
       <ul className=" flex justify-between">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">
+            <img className="w-12" src="src/images/logo.png" alt="" />
+          </NavLink>
         </li>
         <div className="flex space-x-16">
           {navItems.map((item) => {
