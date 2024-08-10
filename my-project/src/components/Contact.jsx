@@ -5,9 +5,11 @@ import Social from "./SocialHandles";
 export default function Contact() {
   return (
     <>
-      <Nav />
-      <div>Contacts</div>
-      <Social />
+      <section className="bg-[url('src/images/backgrounds/contact-light-large.png')] bg-cover bg-center h-screen">
+        <Nav />
+        <div>Contacts</div>
+        <Social />
+      </section>
     </>
   );
 }

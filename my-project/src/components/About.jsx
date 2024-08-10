@@ -5,9 +5,11 @@ import Social from "./SocialHandles";
 export default function About() {
   return (
     <>
-      <Nav />
-      <div>About</div>
-      <Social />
+      <section className="bg-[url('src/images/backgrounds/about-light-large.png')] bg-cover bg-center h-screen">
+        <Nav />
+        <div>About</div>
+        <Social />
+      </section>
     </>
   );
 }

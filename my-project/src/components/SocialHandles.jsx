@@ -1,5 +1,32 @@
 import React from "react";
 
 export default function Social() {
-  return <div> linkedin X github and facebook</div>;
+  return (
+    <>
+      <div>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </>
+  );
 }
