@@ -130,23 +130,25 @@ export default function Projects() {
             </button>
           </div>
 
-          <div className=" mt-4">
+          <div className=" mt-4 pb-20">
             {filteredProjects.map((project) => (
               <div
                 key={project.id}
-                className="flex my-4 bg-neutral-100/30 p-4 rounded-md space-x-4"
+                className="w-full p-5 py-8 bg-white my-4 rounded-md"
               >
-                <div className="w-52 h-40 rounded-md ">
+                <div className="w-full h-72 rounded-md ">
                   <img
                     className="rounded-md w-full h-full"
                     src={`src/images/projects/${project.img}.jpg`}
                     alt=""
                   />
                 </div>
-                <div className="space-y-4">
-                  <h1 className="text-3xl font-semibold">{project.name}</h1>
+                <div className="space-y-3">
+                  <h1 className="text-3xl font-semibold mt-4">
+                    {project.name}
+                  </h1>
                   <p>{project.description}</p>
-                  <button className="bg-neutral-800 text-white py-1  px-6 rounded-md">
+                  <button className="bg-neutral-800 text-white py-1 font-semibold w-full h-10 px-6 rounded-md">
                     <a href={project.link}>Visit</a>
                   </button>
                 </div>
