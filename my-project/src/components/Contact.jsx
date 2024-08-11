@@ -37,7 +37,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="bg-[url('src/images/backgrounds/contact-light-large.png')] bg-cover bg-center h-screen p-14">
+      <section className="bg-[url('src/images/backgrounds/contact-light-small.png')] md:bg-[url('src/images/backgrounds/contact-light-large.png')] bg-cover bg-center h-screen p-14">
         <Nav />
         <div className="px-20 pt-32  pl-64 space-y-4">
           <h1 className="text-8xl">Contact Me.</h1>

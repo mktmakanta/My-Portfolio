@@ -6,15 +6,13 @@ import { Mode } from "./Dark/Mode";
 export default function Home() {
   return (
     <>
-      <main className="bg-[url('src/images/backgrounds/home-light-large.png')] bg-cover bg-center h-screen p-8">
-        <header className="flex items-center py-6 px-14 justify-between">
+      <main className="bg-[url('src/images/backgrounds/home-light-small.png')] md:bg-[url('src/images/backgrounds/home-light-large.png')] bg-cover bg-center h-screen p-8">
+        <header className="">
           <div className="logo-wrapper h-10 w-10">
             <img className="w-full h-full" src="src/images/logo.png" alt="" />
           </div>
-          <div className="flex items-center">
-            <div className=" py-2 px-6 rounded-full bg-neutral-800 text-white font-bold">
-              Resume
-            </div>
+          <div className="">
+            <div className="">Resume</div>
             <div className="p-2 ml-4 px-4 text-white bg-neutral-800 rounded-full">
               <Mode />
             </div>

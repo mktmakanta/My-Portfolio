@@ -5,7 +5,7 @@ import Social from "./SocialHandles";
 export default function About() {
   return (
     <>
-      <section className="bg-[url('src/images/backgrounds/about-light-large.png')] bg-cover bg-center h-screen p-14">
+      <section className="bg-[url('src/images/backgrounds/about-light-small.png')] md:bg-[url('src/images/backgrounds/about-light-large.png')]  bg-cover bg-center h-screen p-14">
         <Nav />
         <div className="grid grid-cols-5 px-20 pt-20 pl-64 ">
           <div className=" pt-28 space-y-8 col-span-3">

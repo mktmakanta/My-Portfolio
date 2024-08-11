@@ -83,7 +83,7 @@ export default function Projects() {
 
   return (
     <>
-      <section className="bg-[url('src/images/backgrounds/project-light-large.png')] bg-cover bg-center h-screen p-14 overflow-auto">
+      <section className=" md:bg-[url('src/images/backgrounds/project-light-small.png')] bg-cover bg-center h-screen p-14 overflow-auto">
         <Nav />
         <div className="px-20 pt-20 pl-64 ">
           <div className="text-9xl pb-10">Projects</div>
