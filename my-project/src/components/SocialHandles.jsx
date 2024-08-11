@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Social() {
   return (
     <>
-      <div>
-        <ul>
-          <li>
+      <div className="fixed bottom-10 inset-x-0 ">
+        <ul className="w-80 h-16 mx-auto p-2 bg-red-950/25 flex justify-between rounded-full">
+          <li className="bg-white h-12 w-12 rounded-full">
             <a href="#">
               {" "}
               {/* <FontAwesomeIcon
@@ -16,17 +16,17 @@ export default function Social() {
               /> */}
             </a>
           </li>
-          <li>
+          <li className="bg-white h-12 w-12 rounded-full">
             <a href="#">
               <img src="" alt="" />
             </a>
           </li>
-          <li>
+          <li className="bg-white h-12 w-12 rounded-full">
             <a href="#">
               <img src="" alt="" />
             </a>
           </li>
-          <li>
+          <li className="bg-white h-12 w-12 rounded-full">
             <a href="#">
               <img src="" alt="" />
             </a>

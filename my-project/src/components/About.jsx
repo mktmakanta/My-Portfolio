@@ -5,34 +5,39 @@ import Social from "./SocialHandles";
 export default function About() {
   return (
     <>
-      <section className="bg-[url('src/images/backgrounds/about-light-small.png')] md:bg-[url('src/images/backgrounds/about-light-large.png')]  bg-cover bg-center h-screen p-14">
+      <section className="bg-[url('src/images/backgrounds/about-light-small.png')] md:bg-[url('src/images/backgrounds/about-light-large.png')]  bg-cover bg-center h-screen p-8 overflow-scroll">
         <Nav />
-        <div className="grid grid-cols-5 px-20 pt-20 pl-64 ">
-          <div className=" pt-28 space-y-8 col-span-3">
-            <h1 className="text-9xl">ABOUT</h1>
+        <div className=" mt-12">
+          <div className=" space-y-4">
+            <h1 className="text-8xl">ABOUT</h1>
             <h2 className="text-3xl">I'm Makanta, A frontend developer</h2>
-            <p>
+            <div className="text-justify">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Distinctio illum ratione accusamus dolorem nihil vitae. Dolorem,
-                voluptas quo amet fuga, earum maxime labore deserunt maiores
-                natus facere vitae, similique corrupti!
+                Back in 2012, I decided to try my hand at creating custom Tumblr
+                themes and tumbled head first into the rabbit hole of coding and
+                web development. Fast-forward to today, and I’ve had the
+                privilege of building software for an advertising agency, a
+                start-up, a huge corporation, and a digital product studio.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis recusandae consequuntur, harum in culpa, sunt
-                nostrum fugiat voluptatibus assumenda optio excepturi nemo
-                dolorum quis autem impedit. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Iste facilis suscipit temporibus
-                consequuntur perferendis cumque obcaecati ratione rem, impedit
-                libero debitis inventore provident voluptatum odit voluptate
-                facere, saepe deserunt voluptatem.
+                My main focus these days is building accessible user interfaces
+                for our customers at Klaviyo. I most enjoy building software in
+                the sweet spot where design and engineering meet — things that
+                look good but are also built well under the hood. In my free
+                time, I've also released an online video course that covers
+                everything you need to know to build a web app with the Spotify
+                API.
               </p>
-            </p>
+              <p>
+                When I’m not at the computer, I’m usually rock climbing,
+                reading, hanging out with my wife and two cats, or running
+                around Hyrule searching for Korok seeds K o r o k s e e d s .
+              </p>
+            </div>
           </div>
           <div
             className="
-          w-96 justify-self-end pt-6 col-span-2"
+          w-72 mt-4"
           >
             <img src="src/images/my-profile.jpg" alt="" />
           </div>

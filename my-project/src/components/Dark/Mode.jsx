@@ -5,7 +5,7 @@ import { faMoon } from "@fortawesome/free-solid-svg-icons";
 export const Mode = () => {
   return (
     <div>
-      <FontAwesomeIcon icon={faMoon} className="text-2xl" />
+      <FontAwesomeIcon icon={faMoon} className="text-xl" />
     </div>
   );
 };

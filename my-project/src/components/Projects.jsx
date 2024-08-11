@@ -83,40 +83,46 @@ export default function Projects() {
 
   return (
     <>
-      <section className=" md:bg-[url('src/images/backgrounds/project-light-small.png')] bg-cover bg-center h-screen p-14 overflow-auto">
+      <section className="bg-[url('src/images/backgrounds/project-light-large.png')] md:bg-[url('src/images/backgrounds/project-light-small.png')] bg-cover bg-center h-screen p-10 overflow-auto">
         <Nav />
-        <div className="px-20 pt-20 pl-64 ">
-          <div className="text-9xl pb-10">Projects</div>
-          <Social />
-
-          <div className="py-2 space-x-8">
+        <div className="mt-20 ">
+          <div className="text-8xl pb-10">Projects</div>
+          <div className="text-xl bg-white divide-x divide-slate-300 w-auto text-center rounded-md shadow-sm ">
             <button
-              className={`text-center px-6 py-2 shadow-sm rounded-lg hover:bg-neutral-400 ${
-                filter === "all" ? " bg-neutral-700  text-white" : ""
+              className={`p-1 px-5 inline-block ${
+                filter === "all"
+                  ? " border-b-2 border-neutral-800 text-neutral-800"
+                  : ""
               }`}
               onClick={() => setFilter("all")}
             >
               All
             </button>
             <button
-              className={`text-center px-6 py-2 shadow-sm rounded-lg  hover:bg-neutral-400  ${
-                filter === "css" ? " bg-neutral-700  text-white" : ""
+              className={` p-1 px-5 inline-block  ${
+                filter === "css"
+                  ? " border-b-2 border-neutral-800 text-neutral-800"
+                  : ""
               }`}
               onClick={() => setFilter("css")}
             >
               CSS{" "}
             </button>
             <button
-              className={`text-center px-6 py-2 shadow-sm rounded-lg  hover:bg-neutral-400 ${
-                filter === "javascript" ? " bg-neutral-700 text-white" : ""
+              className={`p-1 px-8 inline-block ${
+                filter === "javascript"
+                  ? " border-b-2 border-blue-500 text-neutral-800"
+                  : ""
               }`}
               onClick={() => setFilter("javascript")}
             >
-              Javascript
+              JS
             </button>
             <button
-              className={`text-center px-6 py-2 shadow-sm rounded-lg   hover:bg-neutral-500 ${
-                filter === "react" ? " bg-neutral-700   text-white" : ""
+              className={`p-1 px-5 inline-block ${
+                filter === "react"
+                  ? " border-b-2 border-neutral-800 text-neutral-800"
+                  : ""
               }`}
               onClick={() => setFilter("react")}
             >
@@ -148,6 +154,7 @@ export default function Projects() {
             ))}
           </div>
         </div>
+        <Social />
       </section>
     </>
   );
