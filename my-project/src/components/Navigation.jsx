@@ -15,10 +15,10 @@ function Nav() {
     <nav className="flex justify-between items-center sticky top-0">
       <div>
         <NavLink to="/">
-          <img className="w-10" src="src/images/logo.png" alt="" />
+          <img className="w-10 lg:w-14" src="src/images/logo.png" alt="" />
         </NavLink>
       </div>
-      <ul className="flex space-x-6 items-center">
+      <ul className="flex space-x-6 md:space-x-16 lg:text-lg font-medium items-center">
         {navItems.map((item) => {
           // Check if the current path is the active one
           const isActive =
@@ -33,7 +33,7 @@ function Nav() {
             )
           );
         })}
-        <li className="py-1 px-3 bg-neutral-800 text-white  rounded-full">
+        <li className="py-1 px-3 lg:px-4 bg-neutral-800 text-white  rounded-full">
           <Mode />
         </li>
       </ul>

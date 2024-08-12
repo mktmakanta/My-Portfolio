@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Social() {
   return (
     <>
-      <div className="fixed bottom-10 inset-x-0 ">
-        <ul className="w-80 h-16 mx-auto p-2 bg-red-950/25 flex justify-between rounded-full">
+      <div className="  ">
+        <ul className=" space-x-6 inset-x-0 flex flex-row px-10 fixed bottom-5">
           <li className="bg-white h-12 w-12 rounded-full">
             <a href="#">
               {" "}
@@ -15,10 +15,11 @@ export default function Social() {
                 className="text-blue-500 text-2xl"
               /> */}
             </a>
+            1
           </li>
-          <li className="bg-white h-12 w-12 rounded-full">
+          <li className="bg-white  h-12 w-12 rounded-full">
             <a href="#">
-              <img src="" alt="" />
+              <img src="" alt="" />2
             </a>
           </li>
           <li className="bg-white h-12 w-12 rounded-full">

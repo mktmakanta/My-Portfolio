@@ -37,22 +37,25 @@ const Contact = () => {
 
   return (
     <>
-      <section className="bg-[url('src/images/backgrounds/contact-light-small.png')] md:bg-[url('src/images/backgrounds/contact-light-large.png')] bg-cover bg-center h-screen overflow-scroll p-10">
+      <section className="bg-[url('src/images/backgrounds/contact-light-small.png')] md:bg-[url('src/images/backgrounds/contact-light-large.png')] bg-cover bg-center h-screen overflow-scroll p-10 md:p-14 lg:p-20">
         <Nav />
-        <div className=" mt-20">
-          <h1 className="text-8xl">Contact.</h1>
-          <h3 className="text-sm">
+        <div className=" mt-20 md:mt-40 lg:mt-24 md:mr-12 md:ml-44 ">
+          <h1 className="text-8xl md:text-9xl lg:text-7xl">Contact.</h1>
+          <h3 className="text-sm md:text-lg md:mt-4">
             Get in touch or massage me via email directly on{" "}
             <span className="font-extrabold">mktmakantamkt@gmail.com</span>
           </h3>
-          <form className="mt-4  py-4 pb-24" onSubmit={handleSubmit}>
+          <form
+            className="mt-4 md:mt-12 lg:mt-4 py-4 pb-24"
+            onSubmit={handleSubmit}
+          >
             <div
               className="flex flex-col space-y-2
             "
             >
-              <label className="font-semibold text-lg">Name</label>
+              <label className="font-semibold text-lg md:text-xl">Name</label>
               <input
-                className="p-4 bg-neutral-100/25  rounded-sm  focus:outline-none focus:bg-white w-full shadow-sm "
+                className="p-4 bg-neutral-100/25  rounded-sm  focus:outline-none focus:bg-white w-full lg:w-5/6 shadow-sm "
                 type="text"
                 name="name"
                 value={formData.name}
@@ -61,9 +64,9 @@ const Contact = () => {
               />
             </div>
             <div className="my-4 flex flex-col space-y-2">
-              <label className="font-semibold text-lg">Email</label>
+              <label className="font-semibold text-lg md:text-xl">Email</label>
               <input
-                className="p-4 bg-neutral-100/25 shadow-sm  focus:outline-none focus:bg-white rounded-sm w-full"
+                className="p-4 bg-neutral-100/25 shadow-sm  focus:outline-none focus:bg-white rounded-sm w-full lg:w-5/6"
                 type="email"
                 name="email"
                 value={formData.email}
@@ -72,9 +75,11 @@ const Contact = () => {
               />
             </div>
             <div className="my-4 flex flex-col space-y-2">
-              <label className="font-semibold text-lg">Message</label>
+              <label className="font-semibold  text-lg md:text-xl">
+                Message
+              </label>
               <textarea
-                className="p-4 bg-neutral-100/25 shadow-sm  focus:outline-none focus:bg-white rounded-sm h-40 w-full"
+                className="p-4 bg-neutral-100/25 shadow-sm  focus:outline-none focus:bg-white rounded-sm h-40 md:h-48 w-full lg:w-5/6"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
@@ -82,7 +87,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <button
-              className=" py-3 px-8 bg-neutral-800  text-white rounded"
+              className=" py-3 px-8 lg:px-10 lg:py-4 lg:text-2xl bg-neutral-800  text-white rounded md:font-semibold md:text-lg"
               type="submit"
             >
               Send Message
