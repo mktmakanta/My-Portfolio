@@ -20,7 +20,7 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <section className="lg:flex flex-row-reverse space-y-10 md:space-y-16 pb-20 md:mt-44 lg:mt-28 md:mr-12 md:ml-44 ">
+        <section className="lg:flex flex-row-reverse space-y-10 md:space-y-16 mt-32 pb-20 md:mt-44 lg:mt-28 md:mr-12 md:ml-44 ">
           <nav className="text-7xl mt-20 lg:mt-2 text-right ">
             <ul className="text-8xl md:text-9xl space-y-3 lg:space-y-4">
               {" "}

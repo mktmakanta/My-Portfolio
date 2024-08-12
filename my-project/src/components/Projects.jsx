@@ -83,7 +83,7 @@ export default function Projects() {
 
   return (
     <>
-      <section className="bg-[url('src/images/backgrounds/project-light-large.png')] md:bg-[url('src/images/backgrounds/project-light-small.png')] bg-cover bg-center h-screen p-8   md:p-14 lg:p-20 overflow-auto">
+      <section className="bg-[url('src/images/backgrounds/project-light-small.png')] md:bg-[url('src/images/backgrounds/project-light-large.png')] bg-cover bg-center h-screen p-8   md:p-14 lg:p-20 overflow-auto">
         <Nav />
         <div className="mt-20 md:mt-32 lg:mt-20 md:mr-12 md:ml-44">
           <div className="text-7xl md:text-9xl lg:text-7xl pb-6">Projects.</div>
@@ -102,9 +102,9 @@ export default function Projects() {
               All
             </button>
             <button
-              className={` p-1 px-4 md:px-8 inline-block  ${
+              className={`  p-1 px-4 md:px-8 inline-block ${
                 filter === "css"
-                  ? " border-b-2 border-neutral-800 text-neutral-800"
+                  ? " border-b-2 border-neutral-900 text-neutral-800"
                   : ""
               }`}
               onClick={() => setFilter("css")}
