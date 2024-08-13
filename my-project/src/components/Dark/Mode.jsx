@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon } from "@fortawesome/free-solid-svg-icons";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 
 export const Mode = () => {
@@ -31,7 +31,11 @@ export const Mode = () => {
   return (
     <div>
       <button onClick={toggleDarkMode}>
-        <FontAwesomeIcon icon={faMoon} className="text-xl" />
+        {darkMode ? (
+          <FontAwesomeIcon icon={faSun} className="text-xl" />
+        ) : (
+          <FontAwesomeIcon icon={faMoon} className="text-xl" />
+        )}
       </button>
     </div>
   );
