@@ -13,7 +13,7 @@ export default function About() {
             <h2 className="text-3xl md:text-4xl">
               I'm Makanta, A frontend developer
             </h2>
-            <div className="text-justify md:text-lg overflow-scroll">
+            <div className="text-justify md:text-lg overflow-hidden">
               <p>
                 Back in 2012, I decided to try my hand at creating custom Tumblr
                 themes and tumbled head first into the rabbit hole of coding and
@@ -21,6 +21,7 @@ export default function About() {
                 privilege of building software for an advertising agency, a
                 start-up, a huge corporation, and a digital product studio.
               </p>
+
               <p>
                 My main focus these days is building accessible user interfaces
                 for our customers at Klaviyo. I most enjoy building software in

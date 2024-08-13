@@ -1,35 +1,48 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {  } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedinIn,
+  faFacebookF,
+  faGithub,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Social() {
   return (
     <>
-      <div className=" flex justify-center fixed ">
-        <ul className=" flex justify-center fixed z-50 m-0 p-0">
-          <li className="bg-white m-2 h-12 w-12 rounded-full">
+      <div className=" flex justify-center fixed   bottom-5 md:rotate-90 lg:bottom-1/4  md:right-3/4 right-0 left-0 z-50  ">
+        <ul className=" flex justify-center md:-ml-64 lg:mt-40 lg:ml-44  ">
+          <li className=" m-2 h-12 w-12 rounded-full flex items-center justify-center">
             <a href="#">
-              {" "}
-              {/* <FontAwesomeIcon
-                icon={}
-                className="text-blue-500 text-2xl"
-              /> */}
-            </a>
-            1
-          </li>
-          <li className="bg-white m-2 h-12 w-12 rounded-full">
-            <a href="#">
-              <img src="" alt="" />2
+              <FontAwesomeIcon
+                icon={faXTwitter}
+                className="text-2xlmd:text-lg"
+              />
             </a>
           </li>
-          <li className="bg-white m-2 h-12 w-12 rounded-full">
+          <li className=" m-2  h-12 w-12 rounded-full flex items-center justify-center">
             <a href="#">
-              <img src="" alt="" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="text-2xl md:text-lg"
+              />
             </a>
           </li>
-          <li className="bg-white m-2 h-12 w-12 rounded-full">
+          <li className=" m-2  h-12 w-12 rounded-full flex items-center justify-center">
             <a href="#">
-              <img src="" alt="" />
+              <FontAwesomeIcon
+                icon={faLinkedinIn}
+                className="text-2xl md:text-lg"
+              />
+            </a>
+          </li>
+
+          <li className=" m-2  h-12 w-12 rounded-full flex items-center justify-center">
+            <a href="#">
+              <FontAwesomeIcon
+                icon={faFacebookF}
+                className="text-2xl md:text-lg"
+              />
             </a>
           </li>
         </ul>
