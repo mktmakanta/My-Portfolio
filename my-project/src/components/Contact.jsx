@@ -37,10 +37,10 @@ const Contact = () => {
 
   return (
     <>
-      <section className="bg-[url('src/images/backgrounds/contact-light-small.png')] md:bg-[url('src/images/backgrounds/contact-light-large.png')] bg-cover bg-center h-screen overflow-scroll p-10 md:p-14 lg:p-20">
+      <section className="bg-[url('src/images/backgrounds/contact-light-small.png')] dark:bg-[url('src/images/backgrounds/contact-dark-small.png')] md:bg-[url('src/images/backgrounds/contact-light-large.png')] dark:md:bg-[url('src/images/backgrounds/contact-dark-large.png')] bg-cover bg-center h-screen overflow-scroll p-10 md:p-14 lg:p-20">
         <Nav />
-        <div className=" mt-20 md:mt-40 lg:mt-24 md:mr-12 md:ml-44 ">
-          <h1 className="text-8xl md:text-9xl lg:text-7xl">Contact.</h1>
+        <div className=" mt-20 md:mt-40 lg:mt-24 md:mr-12 md:ml-44 space-y-2 dark:text-white">
+          <h1 className="text-7xl md:text-9xl lg:text-7xl">CONTACT.</h1>
           <h3 className="text-sm md:text-lg md:mt-4">
             Get in touch or massage me via email directly on{" "}
             <span className="font-extrabold">mktmakantamkt@gmail.com</span>
@@ -87,7 +87,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <button
-              className=" py-3 px-8 lg:px-10 lg:py-4 lg:text-2xl bg-neutral-800  text-white rounded md:font-semibold md:text-lg"
+              className=" py-3 px-8 lg:px-10 lg:py-4 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black  text-white rounded font-bold md:font-semibold md:text-lg"
               type="submit"
             >
               Send Message

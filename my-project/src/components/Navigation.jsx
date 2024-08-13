@@ -12,10 +12,14 @@ function Nav() {
   const location = useLocation();
 
   return (
-    <nav className="flex justify-between items-center sticky top-0">
+    <nav className="flex justify-between items-center sticky dark:text-white top-0">
       <div>
         <NavLink to="/">
-          <img className="w-10 lg:w-14" src="src/images/logo.png" alt="" />
+          <img
+            className="w-10 lg:w-14"
+            src="src/images/logo-light.png"
+            alt=""
+          />
         </NavLink>
       </div>
       <ul className="flex space-x-6 md:space-x-16 lg:text-lg font-medium items-center">
