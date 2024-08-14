@@ -39,8 +39,10 @@ const Contact = () => {
     <>
       <section className="bg-[url('src/images/backgrounds/contact-light-small.png')] dark:bg-[url('src/images/backgrounds/contact-dark-small.png')] md:bg-[url('src/images/backgrounds/contact-light-large.png')] dark:md:bg-[url('src/images/backgrounds/contact-dark-large.png')] bg-cover bg-center h-screen overflow-scroll p-10 md:p-14 lg:p-20">
         <Nav />
-        <div className=" mt-20 md:mt-40 lg:mt-24 md:mr-12 md:ml-44 space-y-2 dark:text-white">
-          <h1 className="text-7xl md:text-9xl lg:text-7xl">CONTACT.</h1>
+        <div className=" mt-20 md:mt-40 lg:mt-24 md:mr-12 md:ml-44 space-y-2 dark:text-white font-montserrat">
+          <h1 className="text-7xl md:text-9xl lg:text-7xl font-inter font-bold">
+            CONTACT.
+          </h1>
           <h3 className="text-sm md:text-lg md:mt-4">
             Get in touch or massage me via email directly on{" "}
             <span className="font-extrabold">mktmakantamkt@gmail.com</span>

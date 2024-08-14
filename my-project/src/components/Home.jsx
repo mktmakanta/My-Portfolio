@@ -47,9 +47,9 @@ export default function Home() {
         </header>
         <section className="lg:flex flex-row-reverse space-y-10 md:space-y-16 mt-32 pb-20 md:mt-44 lg:mt-40 md:mr-12 md:ml-44 ">
           <nav className="text-7xl mt-20 lg:mt-2 dark:text-white text-right ">
-            <ul className="text-8xl md:text-9xl space-y-3 lg:space-y-4">
+            <ul className="text-8xl md:text-9xl space-y-3 lg:space-y-4 font-inter font-bold">
               {" "}
-              <li className="hover:line-through decoration-2 j">
+              <li className="hover:line-through decoration-2 ">
                 <NavLink to="/about">About</NavLink>
               </li>
               <li>
@@ -60,7 +60,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="space-y-2 dark:text-white lg:self-end lg:space-y-3">
+          <div className="space-y-2 dark:text-white lg:self-end lg:space-y-3 font-montserrat">
             <h1 className="font-medium text-2xl md:text-3xl">
               MUHAMMAD MAKANTA IBRAHIM
             </h1>
