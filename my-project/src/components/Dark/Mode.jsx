@@ -29,8 +29,8 @@ export const Mode = () => {
   };
 
   return (
-    <div>
-      <button onClick={toggleDarkMode}>
+    <div className="hover:opacity-50" onClick={toggleDarkMode}>
+      <button>
         {darkMode ? (
           <FontAwesomeIcon icon={faSun} className="text-xl" />
         ) : (

@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <div className=" flex items-center">
             <a href="src/assets/resume.pdf" download="My_Resume.pdf">
-              <button className="bg-neutral-800 dark:bg-white dark:text-neutral-800 text-white px-4 py-2 md:px-6  md:text-xl font-medium rounded-full">
+              <button className="bg-neutral-800 dark:bg-white hover:opacity-50 dark:text-neutral-800 text-white px-4 py-2 md:px-6  md:text-xl font-medium rounded-full">
                 Resume
               </button>
             </a>
@@ -52,10 +52,10 @@ export default function Home() {
               <li className="hover:line-through decoration-2 ">
                 <NavLink to="/about">About</NavLink>
               </li>
-              <li>
+              <li className="hover:line-through decoration-2">
                 <NavLink to="/projects">Projects</NavLink>
               </li>
-              <li>
+              <li className="hover:line-through decoration-2">
                 <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>

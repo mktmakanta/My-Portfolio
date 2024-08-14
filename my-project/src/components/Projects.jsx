@@ -153,7 +153,7 @@ export default function Projects() {
                     {project.name}
                   </h1>
                   <p>{project.description}</p>
-                  <button className="bg-neutral-800 text-white md:text-2xl lg:text-xl  py-1 font-semibold lg:font-normal w-full lg:w-max lg:h-max h-10 md:h-14 px-6 rounded-md">
+                  <button className="bg-neutral-800 hover:bg-neutral-950 text-white md:text-2xl lg:text-xl  py-1 font-semibold lg:font-normal w-full lg:w-max lg:h-max h-10 md:h-14 px-6 rounded-md">
                     <a href={project.link}>Visit</a>
                   </button>
                 </div>

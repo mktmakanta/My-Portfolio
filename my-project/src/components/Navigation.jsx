@@ -43,7 +43,7 @@ function Nav() {
           </div>
         </NavLink>
       </div>
-      <ul className="flex space-x-6 md:space-x-16 lg:text-lg font-medium items-center">
+      <ul className="flex space-x-6 md:space-x-16 lg:text-lg font-medium items-center ">
         {navItems.map((item) => {
           // Check if the current path is the active one
           const isActive =
@@ -52,13 +52,13 @@ function Nav() {
 
           return (
             !isActive && (
-              <li key={item.path}>
+              <li className="hover:opacity-50" key={item.path}>
                 <NavLink to={item.path}>{item.label}</NavLink>
               </li>
             )
           );
         })}
-        <li className="py-1 px-3 lg:px-4 bg-neutral-800 text-white  rounded-full">
+        <li className="py-1 px-3 lg:px-4 bg-neutral-800 text-white hover:opacity-60  rounded-full">
           <Mode />
         </li>
       </ul>
