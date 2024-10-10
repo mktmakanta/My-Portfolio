@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Social from "./SocialHandles";
 import { Mode } from "./Dark/Mode";
+import "../styles/name.css";
 
 export default function Home() {
   return (
@@ -65,7 +66,9 @@ export default function Home() {
               </ul>
             </nav>
             <div className="space-y-2 dark:text-white lg:self-end lg:space-y-3 font-montserrat">
-              <h1 className="font-medium text-4xl md:text-3xl">I'm Makanta</h1>
+              <h1 className="my-name font-medium text-4xl md:text-3xl">
+                I'm Makanta
+              </h1>
               <h3 className="text-2xl md:text-3xl">A Front End Developer</h3>
               <p className="text-neutral-700 dark:text-slate-300 md:text-xl">
                 I build and turn complex UI/UX designs into a real world
