@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Navigation";
 import Social from "./SocialHandles";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
@@ -8,8 +9,13 @@ export default function About() {
       <section className="bg-[url('/images/backgrounds/about-light-small.png')] dark:bg-[url('/images/backgrounds/about-dark-small.png')] md:bg-[url('/images/backgrounds/about-light-large.png')] dark:md:bg-[url('/images/backgrounds/about-dark-large.png')] bg-cover bg-center h-screen p-8 md:p-12 lg:p-20 overflow-scroll ">
         <Nav />
         <div className="max-w-7xl mx-auto px-10 mt-20 pb-20 md:ml-44 md:mr-12 md:mt-44 lg:mt-24 lg:grid lg:grid-cols-5 gap-5 dark:text-white font-montserrat ">
-          <div className=" space-y-4 col-span-3 lg:pt-24">
-            <h1 className="text-8xl md:text-9xl font-inter font-semibold">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className=" space-y-4 col-span-3 lg:pt-24"
+          >
+            <h1 className="text-6xl md:text-9xl font-inter font-semibold">
               ABOUT
             </h1>
             <h2 className="text-3xl md:text-4xl">
@@ -65,10 +71,16 @@ export default function About() {
                 Contact Me
               </button>
             </div>
-          </div>
-          <div className="w-72 md:w-96 mt-4 col-span-2">
+          </motion.div>
+          <motion.div
+            initial={{ x: 400, opacity: 0, scale: 1.1 }}
+            animate={{ x: 0, opacity: 1, scale: 1 }}
+            transition={{ duration: 1.1 }}
+            whileHover={{ scale: 1.1 }}
+            className="w-72 md:w-96 mt-4 col-span-2"
+          >
             <img src="/images/my-profile.jpg" alt="" />
-          </div>
+          </motion.div>
           <Social />
         </div>
       </section>
