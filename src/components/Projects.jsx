@@ -18,7 +18,7 @@ export default function Projects() {
     <>
       <section className="bg-[url('/images/backgrounds/project-light-small.png')] dark:bg-[url('/images/backgrounds/project-dark-small.png')] md:bg-[url('/images/backgrounds/project-light-large.png')] dark:md:bg-[url('/images/backgrounds/project-dark-large.png')] bg-cover bg-center h-screen p-8 md:p-14 lg:p-20 overflow-auto">
         <Nav />
-        <div className="mt-20 max-w-5xl md:mt-32 lg:mt-20 md:mr-12 md:ml-44 dark:text-white font-montserrat">
+        <div className="mx-auto mt-20 max-w-5xl md:mt-32 lg:mt-20 md:mr-12 md:ml-44 dark:text-white font-montserrat">
           <h1 className="text-6xl md:text-8xl lg:text-7xl pb-2 font-inter font-semibold">
             PROJECTS.
           </h1>

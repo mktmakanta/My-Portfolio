@@ -60,7 +60,7 @@ export const projectsData = [
     name: "Modal",
     technologies: ["CSS", "Javascript", "Html"],
     link: "url.cccc",
-    img: "work3",
+    img: "sungrid",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
@@ -80,7 +80,7 @@ export const projectsData = [
     name: "Todo-App",
     technologies: ["Html", "CSS", "Javascript"],
     link: "url.cccc",
-    img: "work7",
+    img: "counter",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },

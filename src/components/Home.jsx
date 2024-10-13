@@ -91,7 +91,7 @@ export default function Home() {
               </h1>
               <h3 className="text-2xl md:text-3xl">A Frontend Developer</h3>
 
-              <p className=" text-neutral-700 dark:text-slate-300 md:text-lg text-wrap">
+              <p className=" text-neutral-700 dark:text-slate-300 md:text-lg ">
                 I'm a frontend developer dedicated to crafting accessible,
                 engaging, and pixel-perfect digital experiences. I specialize in
                 transforming complex UI/UX designs into optimized, user-friendly
@@ -129,14 +129,15 @@ export default function Home() {
                   <h1 className="font-medium text-xl">Tools</h1>
                   <ul className="flex gap-3 flex-wrap dark:text-white">
                     <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Tailwind CSS
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
                       Figma
                     </li>
                     <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
                       GitHub
                     </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Tailwind CSS
-                    </li>
+
                     <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
                       VS Code
                     </li>

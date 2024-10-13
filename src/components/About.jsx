@@ -8,7 +8,7 @@ export default function About() {
     <>
       <section className="bg-[url('/images/backgrounds/about-light-small.png')] dark:bg-[url('/images/backgrounds/about-dark-small.png')] md:bg-[url('/images/backgrounds/about-light-large.png')] dark:md:bg-[url('/images/backgrounds/about-dark-large.png')] bg-cover bg-center h-screen p-8 md:p-12 lg:p-20 overflow-scroll ">
         <Nav />
-        <div className="max-w-7xl mx-auto px-10 mt-20 pb-20 md:ml-44 md:mr-12 md:mt-44 lg:mt-24 lg:grid lg:grid-cols-5 gap-5 dark:text-white font-montserrat ">
+        <div className="max-w-7xl mx-auto px-3 mt-20 pb-20 md:ml-44 md:mr-12 md:mt-44 lg:mt-24 lg:grid lg:grid-cols-5 gap-5 dark:text-white font-montserrat ">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -21,7 +21,7 @@ export default function About() {
             <h2 className="text-3xl md:text-4xl">
               I'm Makanta, A frontend developer
             </h2>
-            <div className="text-justify md:text-lg overflow-hidden">
+            <div className=" md:text-lg overflow-hidden">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
                 voluptatibus nostrum dolores porro sit id itaque eum. Error
@@ -52,7 +52,7 @@ export default function About() {
                 ipsum dolor sit amet consectetur adipisicing elit. Nisi, beatae.
               </p>
               <button
-                className=" py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-500 dark:hover:text-violet-500 text-white rounded-full font-medium  md:text-lg"
+                className=" py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-ou text-white rounded-full font-medium  md:text-lg"
                 type="submit"
               >
                 My CV
@@ -65,7 +65,7 @@ export default function About() {
                 beatae aut commodi?
               </p>
               <button
-                className=" py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-500 dark:hover:text-violet-500 text-white rounded-full font-medium md:text-lg"
+                className=" py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-out text-white rounded-full font-medium md:text-lg"
                 type="submit"
               >
                 Contact Me
@@ -79,7 +79,7 @@ export default function About() {
             whileHover={{ scale: 1.1 }}
             className="w-72 md:w-96 mt-4 col-span-2"
           >
-            <img src="/images/my-profile.jpg" alt="" />
+            <img src="/my-profile.jpg" alt="profile picture" />
           </motion.div>
           <Social />
         </div>
