@@ -104,7 +104,7 @@ const Contact = () => {
                 Message
               </label>
               <textarea
-                className="p-4 bg-neutral-100/25 shadow-sm focus:outline-none focus:ring-1 focus:ring-violet-400 focus:bg-white rounded-sm h-40 md:h-48 w-full lg:w-5/6"
+                className="p-4 bg-neutral-100/25 dark:text-black shadow-sm focus:outline-none focus:ring-1 focus:ring-violet-400 focus:bg-white rounded-sm h-40 md:h-48 w-full lg:w-5/6"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}

@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Social from "./SocialHandles";
 import { Mode } from "./Dark/Mode";
 import "../styles/name.css";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -54,22 +55,42 @@ export default function Home() {
             <nav className="mt-20 lg:mt-2 dark:text-white text-right ">
               <ul className="text-7xl md:text-9xl space-y-3 lg:space-y-4 font-inter font-bold">
                 {" "}
-                <li className="hover:line-through decoration-2 ">
+                <motion.li
+                  whileHover={{ scale: 1.2 }}
+                  transition={{ duration: 0.7 }}
+                  initial={{ x: 400, opacity: 0, scale: 0.1 }}
+                  animate={{ x: 0, opacity: 1, scale: 1 }}
+                  className=""
+                >
                   <NavLink to="/about">About</NavLink>
-                </li>
-                <li className="hover:line-through decoration-2">
+                </motion.li>
+                <motion.li
+                  whileHover={{ scale: 1.2 }}
+                  transition={{ duration: 1.1 }}
+                  initial={{ x: 400, opacity: 0, scale: 0.1 }}
+                  animate={{ x: 0, opacity: 1, scale: 1 }}
+                  className=""
+                >
                   <NavLink to="/projects">Projects</NavLink>
-                </li>
-                <li className="hover:line-through decoration-2">
+                </motion.li>
+                <motion.li
+                  whileHover={{ scale: 1.2 }}
+                  transition={{ duration: 1.5 }}
+                  initial={{ x: 400, opacity: 0, scale: 0.1 }}
+                  animate={{ x: 0, opacity: 1, scale: 1 }}
+                  className=""
+                >
                   <NavLink to="/contact">Contact</NavLink>
-                </li>
+                </motion.li>
               </ul>
             </nav>
+
             <div className="space-y-2 dark:text-white lg:self-end lg:space-y-3 font-montserrat">
               <h1 className="my-name font-medium text-4xl md:text-3xl">
                 I'm Makanta
               </h1>
               <h3 className="text-2xl md:text-3xl">A Front End Developer</h3>
+
               <p className="text-neutral-700 dark:text-slate-300 md:text-xl">
                 I build and turn complex UI/UX designs into a real world
                 application taking into account acccessibility, security and

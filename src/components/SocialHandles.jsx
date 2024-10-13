@@ -24,7 +24,7 @@ export default function Social() {
           <motion.li
             whileHover={{ scale: 1.3, rotate: 360 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.8 }}
             className="cursor-pointer m-2 h-12 w-12 rounded-full flex items-center  justify-center"
           >
             <NavLink to="https://x.com/IbrahimMakanta">
@@ -38,7 +38,7 @@ export default function Social() {
           <motion.li
             whileHover={{ scale: 1.3, rotate: 360 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.8 }}
             className="cursor-pointer m-2  h-12 w-12 rounded-full flex items-center  justify-center"
           >
             <NavLink to="https://github.com/mktmakanta">
@@ -51,7 +51,7 @@ export default function Social() {
           <motion.li
             whileHover={{ scale: 1.3, rotate: 360 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.8 }}
             className="cursor-pointer m-2  h-12 w-12 rounded-full flex items-center justify-center "
           >
             <NavLink to="https://www.linkedin.com/in/muhammad-ibrahim-a18764246/">
@@ -65,7 +65,7 @@ export default function Social() {
           <motion.li
             whileHover={{ scale: 1.3, rotate: 360 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.8 }}
             className="cursor-pointer m-2  h-12 w-12 rounded-full flex items-center justify-center "
           >
             <NavLink href="#">
