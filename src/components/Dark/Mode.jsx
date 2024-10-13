@@ -29,10 +29,13 @@ export const Mode = () => {
   };
 
   return (
-    <div className="hover:opacity-50" onClick={toggleDarkMode}>
+    <div
+      className=" flex justify-center items-center "
+      onClick={toggleDarkMode}
+    >
       <button>
         {darkMode ? (
-          <FontAwesomeIcon icon={faSun} className="text-xl" />
+          <FontAwesomeIcon icon={faSun} className="text-xl " />
         ) : (
           <FontAwesomeIcon icon={faMoon} className="text-xl" />
         )}

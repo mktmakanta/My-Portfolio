@@ -57,7 +57,7 @@ export default function Projects() {
                         key={tech}
                         className={`${
                           techColors[tech] || "bg-gray-300"
-                        } px-2 rounded-sm`}
+                        } py-1 rounded-full px-4`}
                       >
                         {tech}
                       </span>

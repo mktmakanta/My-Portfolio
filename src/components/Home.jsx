@@ -39,11 +39,11 @@ export default function Home() {
             </div>
             <div className=" flex items-center">
               <a href="src/assets/resume.pdf" download="My_Resume.pdf">
-                <button className="bg-neutral-800 dark:bg-white hover:opacity-50 dark:text-neutral-800 text-white px-4 py-2 md:px-6  md:text-xl font-medium rounded-full">
+                <button className="bg-neutral-800 dark:bg-white hover:opacity-50 hover:duration-500 hover:ease-linear dark:text-neutral-800 text-white px-4 py-2 md:px-6  md:text-xl font-medium rounded-full">
                   Resume
                 </button>
               </a>
-              <div className="p-2 ml-3 px-4 text-white dark:text-black md:px-6 md:text-xl bg-neutral-800 dark:bg-white rounded-full">
+              <div className="p-2 ml-3 px-4 text-white dark:text-black md:px-6 md:text-xl bg-neutral-800 dark:bg-white rounded-full hover:opacity-50 hover:duration-500">
                 <Mode />
               </div>
             </div>
@@ -86,16 +86,75 @@ export default function Home() {
             </nav>
 
             <div className="space-y-2 dark:text-white lg:self-end lg:space-y-3 font-montserrat">
-              <h1 className="my-name font-medium text-4xl md:text-3xl">
-                I'm Makanta
+              <h1 className="my-name font-semibold text-3xl">
+                Hey, I'm Makanta
               </h1>
-              <h3 className="text-2xl md:text-3xl">A Front End Developer</h3>
+              <h3 className="text-2xl md:text-3xl">A Frontend Developer</h3>
 
-              <p className="text-neutral-700 dark:text-slate-300 md:text-xl">
-                I build and turn complex UI/UX designs into a real world
-                application taking into account acccessibility, security and
-                optimization.
+              <p className=" text-neutral-700 dark:text-slate-300 md:text-lg text-wrap">
+                I'm a frontend developer dedicated to crafting accessible,
+                engaging, and pixel-perfect digital experiences. I specialize in
+                transforming complex UI/UX designs into optimized, user-friendly
+                applications that prioritize security, performance, and
+                inclusivity.
               </p>
+              <div className="space-y-5">
+                <div className="space-y-3 ">
+                  <h1 className="font-medium text-xl">Languages</h1>
+                  <ul className="flex gap-3 flex-wrap dark:text-white">
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      HTML
+                    </li>
+                    <li className=" flex justify-center items-center font-medium flex- px-3 py-1 bg-violet-500/40 rounded-full">
+                      CSS & SCSS
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Javascript
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      React
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Next.js
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Node.js
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Git
+                    </li>
+                  </ul>
+                </div>
+                <div className="space-y-3 ">
+                  <h1 className="font-medium text-xl">Tools</h1>
+                  <ul className="flex gap-3 flex-wrap dark:text-white">
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Figma
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      GitHub
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Tailwind CSS
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      VS Code
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Framer-Motion
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Vercel
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Shadcn UI
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      More ...
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <Social />
           </section>
