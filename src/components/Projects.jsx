@@ -41,7 +41,7 @@ export default function Projects() {
                 <div className="w-full h-72 md:h-96 lg:w-80 lg:h-full overflow-clip rounded-md">
                   <img
                     className="rounded-md w-full h-full"
-                    src={`/images/projects/${project.img}.jpg`}
+                    src={`/images/projects/${project.img}.png`}
                     alt=""
                   />
                 </div>

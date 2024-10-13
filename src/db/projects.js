@@ -4,7 +4,7 @@ export const projectsData = [
     name: "Counter Bank",
     technologies: ["Nextjs", "Tailwind", "Fontawesome"],
     link: "url.cccc",
-    img: "work1",
+    img: "counter",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
@@ -14,14 +14,14 @@ export const projectsData = [
     name: "Numtify",
     technologies: ["React", "Tailwind", "ReactRouter", "Shadcn"],
     link: "url.cccc",
-    img: "work2",
+    img: "numtify",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
 
   {
     id: 3,
-    name: "Porfolio Site",
+    name: " My Porfolio",
     technologies: [
       "React",
       "ReactRouter",
@@ -30,7 +30,7 @@ export const projectsData = [
       "Fontawesome",
     ],
     link: "url.cccc",
-    img: "work3",
+    img: "portfolio",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     name: "Rest Counries-Api",
     technologies: ["Tailwind", "React", "Api", "ReactRouter"],
     link: "url.cccc",
-    img: "work4",
+    img: "restapi",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
@@ -50,7 +50,7 @@ export const projectsData = [
     name: "Sungrid Solutions",
     technologies: ["Tailwind", "EmailJs", "React", "ReactRouter"],
     link: "url.cccc",
-    img: "work5",
+    img: "sungrid",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
@@ -60,7 +60,7 @@ export const projectsData = [
     name: "Modal",
     technologies: ["CSS", "Javascript", "Html"],
     link: "url.cccc",
-    img: "work6",
+    img: "work3",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
@@ -70,7 +70,7 @@ export const projectsData = [
     name: "FAQ Page",
     technologies: ["Javascript", "Html", "CSS"],
     link: "url.cccc",
-    img: "work7",
+    img: "faq",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
