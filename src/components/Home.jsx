@@ -38,7 +38,7 @@ export default function Home() {
               </svg>
             </div>
             <div className=" flex items-center">
-              <a href="src/assets/resume.pdf" download="My_Resume.pdf">
+              <a href="/resume.pdf" download="resume.pdf">
                 <button className="bg-neutral-800 dark:bg-white hover:opacity-50 hover:duration-500 hover:ease-linear dark:text-neutral-800 text-white px-4 py-2 md:px-6  md:text-xl font-medium rounded-full">
                   Resume
                 </button>
@@ -98,64 +98,6 @@ export default function Home() {
                 applications that prioritize security, performance, and
                 inclusivity.
               </p>
-              <div className="space-y-5">
-                <div className="space-y-3 ">
-                  <h1 className="font-medium text-xl">Languages</h1>
-                  <ul className="flex gap-3 flex-wrap dark:text-white">
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      HTML
-                    </li>
-                    <li className=" flex justify-center items-center font-medium flex- px-3 py-1 bg-violet-500/40 rounded-full">
-                      CSS & SCSS
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Javascript
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      React
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Next.js
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Node.js
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Git
-                    </li>
-                  </ul>
-                </div>
-                <div className="space-y-3 ">
-                  <h1 className="font-medium text-xl">Tools</h1>
-                  <ul className="flex gap-3 flex-wrap dark:text-white">
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Tailwind CSS
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Figma
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      GitHub
-                    </li>
-
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      VS Code
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Framer-Motion
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Vercel
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Shadcn UI
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      More ...
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <Social />
           </section>
