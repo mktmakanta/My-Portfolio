@@ -15,10 +15,10 @@
     width: 0;
   }
   50% {
-    width: 200px; /* Adjust to the width of the full text */
+    width: 240px; /* Adjust to the width of the full text */
   }
   65% {
-    width: 200px; /* Pause after typing */
+    width: 240px; /* Pause after typing */
   }
   100% {
     width: 0; /* Backspace effect */

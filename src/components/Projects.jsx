@@ -38,7 +38,7 @@ export default function Projects() {
                 key={project.id}
                 className="max-w-96 md:max-w-5xl p-5 py-8 md:p-10 lg:p-2 lg:flex lg:h-60 gap-5 bg-white/50 dark:bg-slate-600/50 dark:text-white my-4 rounded-md"
               >
-                <div className="w-full h-72 md:h-96 lg:w-80 lg:h-full overflow-clip rounded-md">
+                <div className="w-full h-72 md:h-96 lg:w-96 lg:h-full overflow-clip rounded-md">
                   <img
                     className="rounded-md w-full h-full"
                     src={`/images/projects/${project.img}.png`}
