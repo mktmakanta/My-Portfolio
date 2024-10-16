@@ -18,18 +18,37 @@ export default function About() {
             <h1 className="text-6xl md:text-9xl font-inter font-semibold">
               ABOUT
             </h1>
-            <h2 className="text-3xl md:text-4xl">
-              Makanta, A frontend developer
-            </h2>
+
             <div className="  overflow-hidden">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
-                voluptatibus nostrum dolores porro sit id itaque eum. Error
-                architecto in esse debitis vitae obcaecati ex totam! Dolores
-                sapiente non reiciendis.
+                I'm a frontend developer with 2 years of experience in crafting
+                accessible, engaging, and pixel-perfect digital experiences. I
+                specialize in transforming complex UI/UX designs into optimized,
+                user-friendly applications, prioritizing security, performance,
+                inclusivity, and client collaboration to ensure solutions that
+                meet diverse user needs.
               </p>
-
-              <div className="space-y-4">
+              <div className="space-y-2 mt-6 ">
+                <h1 className="font-medium text-xl">Education</h1>
+                <p>
+                  I hold a Bachelor of Technology in Electrical and Electronics
+                  Engineering from the{" "}
+                  <span className="font-semibold text-violet-500">
+                    Federal University of Technology, Minna, Nigeria.
+                  </span>{" "}
+                  While my primary focus during my studies was on engineering
+                  principles and systems, I also cultivated a strong interest in
+                  programming and web development through various courses and
+                  personal projects. This blend of engineering knowledge and
+                  programming skills has provided me with a unique perspective
+                  on problem-solving and designing user-centric digital
+                  solutions. My background in engineering enables me to approach
+                  frontend development with a logical and structured mindset,
+                  making me well-equipped to create secure, efficient, and
+                  scalable applications.
+                </p>
+              </div>
+              <div className="space-y-5 mt-5">
                 <div className="space-y-3 ">
                   <h1 className="font-medium text-xl">Languages</h1>
                   <ul className="flex gap-3 flex-wrap dark:text-white">
@@ -56,6 +75,9 @@ export default function About() {
                     </li>
                     <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
                       Redux
+                    </li>
+                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                      Terminal
                     </li>
                   </ul>
                 </div>
@@ -90,26 +112,28 @@ export default function About() {
                   </ul>
                 </div>
               </div>
-
-              <button
-                className="my-4 py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-ou text-white rounded-full font-medium  md:text-lg"
-                type="submit"
-              >
-                My CV
-              </button>
             </div>
-            <div className="space-y-3 text-lg">
+            <div className="space-y-3 text-lg ">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Tempora quibusdam ullam soluta quia enim facere consequatur quae
-                beatae aut commodi?
+                I'm actively seeking job opportunities where I can contribute,
+                grow, and continue learning. If you have a role that aligns with
+                my skills and experience, feel free to reach out!{" "}
+                <div className="animate-bounce inline-block">👇 </div>
               </p>
-              <button
-                className=" py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-out text-white rounded-full font-medium md:text-lg"
-                type="submit"
-              >
-                Contact Me
-              </button>
+              <div className="md:space-x-3">
+                <button
+                  className=" py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-out text-white rounded-full font-medium md:text-lg"
+                  type="submit"
+                >
+                  Contact Me
+                </button>
+                <button
+                  className="my-4 py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-ou text-white rounded-full font-medium  md:text-lg"
+                  type="submit"
+                >
+                  My Resume
+                </button>
+              </div>
             </div>
           </motion.div>
           <motion.div
