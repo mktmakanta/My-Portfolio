@@ -12,7 +12,7 @@ function Nav() {
   const location = useLocation();
 
   return (
-    <nav className="flex justify-between items-center sticky dark:text-white top-0">
+    <nav className="flex justify-between items-center sticky dark:text-white top-0 z-40">
       <div>
         <NavLink to="/">
           <div className="cursor-pointer w-10 lg:w-14">

@@ -32,10 +32,10 @@ const Contact = () => {
 
     try {
       const response = await emailjs.send(
-        "service_xezr4dg",
-        "template_vi08yxk",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         formData,
-        "t_zPmq5JjO_Q2hUlN"
+        process.env.REACT_APP_USER_ID
       );
       console.log("SUCCESS!", response.status, response.text);
       setSuccessMessage("Message sent successfully!");
@@ -80,7 +80,7 @@ const Contact = () => {
             <div className="flex flex-col space-y-2">
               <label className="font-semibold text-lg md:text-xl">Name</label>
               <input
-                className="p-4 bg-neutral-100/25 rounded-sm focus:outline-none focus:ring-1 focus:ring-violet-400 focus:bg-white w-full lg:w-5/6 shadow-sm"
+                className="p-4 bg-neutral-100/25 rounded-sm focus:outline-none focus:ring-1 dark:focus:text-black focus:ring-violet-400 focus:bg-white w-full lg:w-5/6 shadow-sm"
                 type="text"
                 name="name"
                 value={formData.name}
@@ -91,7 +91,7 @@ const Contact = () => {
             <div className="my-4 flex flex-col space-y-2">
               <label className="font-semibold text-lg md:text-xl">Email</label>
               <input
-                className="p-4 bg-neutral-100/25 shadow-sm focus:outline-none focus:ring-1 focus:ring-violet-400 focus:bg-white rounded-sm w-full lg:w-5/6"
+                className="p-4 bg-neutral-100/25 shadow-sm focus:outline-none focus:ring-1 dark:focus:text-black focus:ring-violet-400 focus:bg-white rounded-sm w-full lg:w-5/6"
                 type="email"
                 name="email"
                 value={formData.email}
@@ -104,7 +104,7 @@ const Contact = () => {
                 Message
               </label>
               <textarea
-                className="p-4 bg-neutral-100/25 dark:text-black shadow-sm focus:outline-none focus:ring-1 focus:ring-violet-400 focus:bg-white rounded-sm h-40 md:h-48 w-full lg:w-5/6"
+                className="p-4 bg-neutral-100/25 dark:focus:text-black shadow-sm focus:outline-none focus:ring-1 focus:ring-violet-400 focus:bg-white rounded-sm h-40 md:h-48 w-full lg:w-5/6"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}

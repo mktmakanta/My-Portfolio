@@ -18,7 +18,7 @@ export default function Projects() {
     <>
       <section className="bg-[url('/images/backgrounds/project-light-small.png')] dark:bg-[url('/images/backgrounds/project-dark-small.png')] md:bg-[url('/images/backgrounds/project-light-large.png')] dark:md:bg-[url('/images/ba  ckgrounds/project-dark-large.png')] bg-cover bg-center h-screen p-8 md:p-14 lg:p-20 overflow-auto">
         <Nav />
-        <div className="mx-auto mt-20 max-w-5xl md:mt-32 lg:mt-20  dark:text-white font-montserrat">
+        <div className="mx-auto mt-20 max-w-5xl md:mt-32 lg:mt-20 md:mr-12 md:ml-44 dark:text-white font-montserrat">
           <h1 className="text-6xl md:text-8xl lg:text-7xl pb-2 font-inter font-semibold">
             PROJECTS
           </h1>
@@ -36,9 +36,9 @@ export default function Projects() {
                 }}
                 viewport={{ once: true }}
                 key={project.id}
-                className="max-w-96 md:max-w-5xl p-5 py-8 md:p-10 lg:p-2 lg:flex lg:h-60 gap-5 bg-white/50 dark:bg-slate-600/50 dark:text-white my-4 rounded-md"
+                className="max-w-96 md:max-w-5xl p-5 py-8 md:p-10 lg:p-4 lg:flex lg:h-64 gap-5 bg-white/50 dark:bg-slate-600/50 dark:text-white my-4 rounded-md"
               >
-                <div className="w-full h-72 lg:h-full md:h-96 lg:w-[700px]  overflow-clip rounded-md">
+                <div className="w-full h-48 lg:h-full md:h-72 lg:max-w-[320px]  overflow-clip rounded-md">
                   <img
                     className="rounded-md w-contain h-full object-center"
                     src={`/images/projects/${project.img}.png`}
@@ -46,7 +46,7 @@ export default function Projects() {
                   />
                 </div>
                 <div className="space-y-3">
-                  <h1 className="text-3xl lg:text-4xl font-semibold mt-4">
+                  <h1 className="text-2xl lg:text-4xl font-semibold mt-4">
                     {project.name}
                   </h1>
                   <p>{project.description}</p>
@@ -64,8 +64,10 @@ export default function Projects() {
                     ))}
                   </div>
 
-                  <button className="mt-auto bg-neutral-800 dark:bg-black dark:ring-1 ring-white/10 hover:bg-neutral-950 text-white md:text-2xl lg:text-lg py-1 font-semibold lg:font-normal w-full lg:w-max lg:h-max h-10 md:h-14 px-6 rounded-md">
-                    <a href={project.link}>Visit</a>
+                  <button className="cursor-pointer mt-auto bg-neutral-800 dark:bg-black dark:ring-1 ring-white/10 hover:bg-violet-400 text-white md:text-2xl lg:text-lg py-1 font-semibold lg:font-normal w-full lg:w-max lg:h-max h-10 md:h-14 px-6 rounded-md">
+                    <a className="hover:text-violet-400 " href={project.link}>
+                      Visit
+                    </a>
                   </button>
                 </div>
               </motion.div>

@@ -1,0 +1,15 @@
+export const Tools = [
+  "Redux",
+  "Tailwind CSS",
+  "nextauth.js",
+  "Shadcn",
+  "Figma",
+  "Vercel",
+  "Git",
+  "GraphQL",
+  "Superbase",
+  "Jest",
+  "Prisma",
+  "Postman",
+  "Frame-Motion",
+];

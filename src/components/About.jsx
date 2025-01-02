@@ -3,25 +3,8 @@ import Nav from "./Navigation";
 import Social from "./SocialHandles";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-
-const Languages = ["Javascript", "React", "Next.js", "Node.js", "Git"];
-
-const Tools = [
-  "Redux",
-  "Tailwind CSS",
-  "nextauth.js",
-  "Shadcn",
-  "MongoDb",
-  "Figma",
-  "Vercel",
-  "Git",
-  "GraphQL",
-  "Superbase",
-  "Jest",
-  "Prisma",
-  "Postman",
-  "Frame-Motion",
-];
+import { Tools } from "../db/tools";
+import { Languages } from "../db/languages";
 
 export default function About() {
   return (
@@ -111,7 +94,9 @@ export default function About() {
                   className="my-4 py-2 px-5 lg:px-7 lg:py-2 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-ou text-white rounded-full font-medium  md:text-lg"
                   type="submit"
                 >
-                  My Resume
+                  <a href="/resume.pdf" download="resume.pdf">
+                    Resume
+                  </a>
                 </button>
               </div>
             </div>

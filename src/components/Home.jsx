@@ -92,11 +92,11 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl">A Frontend Developer</h3>
 
               <p className=" text-neutral-700 dark:text-slate-300 md:text-lg ">
-                I'm a frontend developer dedicated to crafting accessible,
-                engaging, and pixel-perfect digital experiences. I specialize in
-                transforming complex UI/UX designs into optimized, user-friendly
-                applications that prioritize security, performance, and
-                inclusivity.
+                Passionate React & Next.js Developer | Specializing in Frontend
+                Development with TypeScript, Modern UI Design, and Scalable Web
+                Applications. I excel at transforming complex UI/UX designs into
+                optimized, user-friendly applications that prioritize security,
+                performance, and inclusivity.
               </p>
             </div>
             <Social />

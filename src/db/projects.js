@@ -3,10 +3,10 @@ export const projectsData = [
     id: 1,
     name: "Sungrid Solution",
     technologies: ["Nextjs", "Tailwind", "EmailJs", "motion"],
-    link: "sungridsolution.com",
+    link: "https://sungridsolution.com",
     img: "sungrid",
     description:
-      "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
+      "Developed a responsive and dynamic website for sungrid solution using modern technologies to deliver an optimized user experience.",
   },
 
   {
@@ -16,7 +16,7 @@ export const projectsData = [
     link: "https://numtify-mktmakantas-projects.vercel.app/",
     img: "numtify",
     description:
-      "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
+      "Developed Numtify, a platform for seamless and reliable number verification with a user-friendly interface.",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const projectsData = [
     link: "url.cccc",
     img: "counter",
     description:
-      "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
+      "Built Counter Fintech landing page, a secure and efficient platform for managing financial services and transactions.",
   },
 
   {
@@ -35,21 +35,15 @@ export const projectsData = [
     link: "https://rest-countries-api-ten-smoky.vercel.app/",
     img: "restapi",
     description:
-      "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
+      "Integrated the REST Countries API to provide dynamic access to comprehensive country data.",
   },
   {
     id: 5,
     name: " Porfolio Website",
-    technologies: [
-      "React",
-      "ReactRouter",
-      "Tailwind",
-      "Framer-Motion",
-      "Emailjs",
-    ],
-    link: "url.cccc",
+    technologies: ["React", "Tailwind", "Framer-Motion"],
+    link: "https://makanta-portfolio.vercel.app",
     img: "portfolio",
     description:
-      "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
+      "Showcasing a collection of my web development projects, highlighting my skills in building dynamic, user-friendly, and responsive websites and applications.",
   },
 ];
