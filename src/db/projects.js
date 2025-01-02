@@ -1,10 +1,10 @@
 export const projectsData = [
   {
     id: 1,
-    name: "Counter Bank",
-    technologies: ["Nextjs", "Tailwind", "Fontawesome"],
-    link: "url.cccc",
-    img: "counter",
+    name: "Sungrid Solution",
+    technologies: ["Nextjs", "Tailwind", "EmailJs", "motion"],
+    link: "sungridsolution.com",
+    img: "sungrid",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
@@ -13,24 +13,17 @@ export const projectsData = [
     id: 2,
     name: "Numtify",
     technologies: ["React", "Tailwind", "ReactRouter", "Shadcn"],
-    link: "url.cccc",
+    link: "https://numtify-mktmakantas-projects.vercel.app/",
     img: "numtify",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
-
   {
     id: 3,
-    name: " My Porfolio",
-    technologies: [
-      "React",
-      "ReactRouter",
-      "Tailwind",
-      "Framer-Motion",
-      "Fontawesome",
-    ],
+    name: "Counter Website",
+    technologies: ["Nextjs", , "Javascript", "fontawesome"],
     link: "url.cccc",
-    img: "portfolio",
+    img: "counter",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
@@ -38,49 +31,24 @@ export const projectsData = [
   {
     id: 4,
     name: "Rest Counries-Api",
-    technologies: ["Tailwind", "React", "Api", "ReactRouter"],
-    link: "url.cccc",
+    technologies: ["Tailwind", "React", "Api"],
+    link: "https://rest-countries-api-ten-smoky.vercel.app/",
     img: "restapi",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },
-
   {
     id: 5,
-    name: "Sungrid Solutions",
-    technologies: ["Tailwind", "EmailJs", "React", "ReactRouter"],
+    name: " Porfolio Website",
+    technologies: [
+      "React",
+      "ReactRouter",
+      "Tailwind",
+      "Framer-Motion",
+      "Emailjs",
+    ],
     link: "url.cccc",
-    img: "sungrid",
-    description:
-      "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
-  },
-
-  {
-    id: 6,
-    name: "Modal",
-    technologies: ["CSS", "Javascript", "Html"],
-    link: "url.cccc",
-    img: "sungrid",
-    description:
-      "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
-  },
-
-  {
-    id: 7,
-    name: "FAQ Page",
-    technologies: ["Javascript", "Html", "CSS"],
-    link: "url.cccc",
-    img: "faq",
-    description:
-      "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
-  },
-
-  {
-    id: 8,
-    name: "Todo-App",
-    technologies: ["Html", "CSS", "Javascript"],
-    link: "url.cccc",
-    img: "counter",
+    img: "portfolio",
     description:
       "Over 500+ professionally designed, fully responsive, expertly crafted component examples you can drop into your Tailwind projects and customize to your heart’s content.",
   },

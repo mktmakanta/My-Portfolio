@@ -2,6 +2,26 @@ import React from "react";
 import Nav from "./Navigation";
 import Social from "./SocialHandles";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
+
+const Languages = ["Javascript", "React", "Next.js", "Node.js", "Git"];
+
+const Tools = [
+  "Redux",
+  "Tailwind CSS",
+  "nextauth.js",
+  "Shadcn",
+  "MongoDb",
+  "Figma",
+  "Vercel",
+  "Git",
+  "GraphQL",
+  "Superbase",
+  "Jest",
+  "Prisma",
+  "Postman",
+  "Frame-Motion",
+];
 
 export default function About() {
   return (
@@ -21,7 +41,7 @@ export default function About() {
 
             <div className="  overflow-hidden">
               <p>
-                I'm a frontend developer with 2 years of experience in crafting
+                I'm a frontend developer with 3+ years of experience in crafting
                 accessible, engaging, and pixel-perfect digital experiences. I
                 specialize in transforming complex UI/UX designs into optimized,
                 user-friendly applications, prioritizing security, performance,
@@ -52,63 +72,21 @@ export default function About() {
                 <div className="space-y-3 ">
                   <h1 className="font-medium text-xl">Languages</h1>
                   <ul className="flex gap-3 flex-wrap dark:text-white">
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      HTML
-                    </li>
-                    <li className=" flex justify-center items-center font-medium flex- px-3 py-1 bg-violet-500/40 rounded-full">
-                      CSS & SCSS
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Javascript
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      React
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Next.js
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Node.js
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Git
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Redux
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Terminal
-                    </li>
+                    {Languages.map((lang) => (
+                      <li className="flex justify-center items-center  font-medium gap-3  px-3 py-1 bg-violet-500/40 rounded-full">
+                        {lang}
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className="space-y-3 ">
                   <h1 className="font-medium text-xl">Tools</h1>
                   <ul className="flex gap-3 flex-wrap dark:text-white">
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Tailwind CSS
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Figma
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      GitHub
-                    </li>
-
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      VS Code
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Framer-Motion
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Vercel
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      Shadcn UI
-                    </li>
-                    <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
-                      More ...
-                    </li>
+                    {Tools.map((tool) => (
+                      <li className=" flex justify-center items-center font-medium  px-3 py-1 bg-violet-500/40 rounded-full">
+                        {tool}
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
@@ -121,14 +99,16 @@ export default function About() {
                 <div className="animate-bounce inline-block">👇 </div>
               </p>
               <div className="md:space-x-3">
+                <NavLink to="/contact">
+                  <button
+                    className=" py-2 px-5 lg:px-7 lg:py-2 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-out text-white rounded-full font-medium md:text-lg"
+                    type="submit"
+                  >
+                    Contact Me
+                  </button>
+                </NavLink>
                 <button
-                  className=" py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-out text-white rounded-full font-medium md:text-lg"
-                  type="submit"
-                >
-                  Contact Me
-                </button>
-                <button
-                  className="my-4 py-2 px-6 lg:px-8 lg:py-3 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-ou text-white rounded-full font-medium  md:text-lg"
+                  className="my-4 py-2 px-5 lg:px-7 lg:py-2 lg:text-2xl bg-neutral-800 dark:bg-white dark:text-black hover:text-violet-600 dark:hover:text-violet-500 transition  hover:duration-700 hover:ease-in-ou text-white rounded-full font-medium  md:text-lg"
                   type="submit"
                 >
                   My Resume

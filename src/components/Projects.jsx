@@ -16,11 +16,11 @@ export default function Projects() {
 
   return (
     <>
-      <section className="bg-[url('/images/backgrounds/project-light-small.png')] dark:bg-[url('/images/backgrounds/project-dark-small.png')] md:bg-[url('/images/backgrounds/project-light-large.png')] dark:md:bg-[url('/images/backgrounds/project-dark-large.png')] bg-cover bg-center h-screen p-8 md:p-14 lg:p-20 overflow-auto">
+      <section className="bg-[url('/images/backgrounds/project-light-small.png')] dark:bg-[url('/images/backgrounds/project-dark-small.png')] md:bg-[url('/images/backgrounds/project-light-large.png')] dark:md:bg-[url('/images/ba  ckgrounds/project-dark-large.png')] bg-cover bg-center h-screen p-8 md:p-14 lg:p-20 overflow-auto">
         <Nav />
-        <div className="mx-auto mt-20 max-w-5xl md:mt-32 lg:mt-20 md:mr-12 md:ml-44 dark:text-white font-montserrat">
+        <div className="mx-auto mt-20 max-w-5xl md:mt-32 lg:mt-20  dark:text-white font-montserrat">
           <h1 className="text-6xl md:text-8xl lg:text-7xl pb-2 font-inter font-semibold">
-            PROJECTS.
+            PROJECTS
           </h1>
           <p className="pb-6 md:pb-12 lg:pb-6 pt-2 md:pt-3 lg:pt-2 text-xl md:text-2xl lg:text-xl">
             Recent projects and sites I have worked on.
@@ -38,9 +38,9 @@ export default function Projects() {
                 key={project.id}
                 className="max-w-96 md:max-w-5xl p-5 py-8 md:p-10 lg:p-2 lg:flex lg:h-60 gap-5 bg-white/50 dark:bg-slate-600/50 dark:text-white my-4 rounded-md"
               >
-                <div className="w-full h-72 md:h-96 lg:w-96 lg:h-full overflow-clip rounded-md">
+                <div className="w-full h-72 lg:h-full md:h-96 lg:w-[700px]  overflow-clip rounded-md">
                   <img
-                    className="rounded-md w-full h-full object-cover"
+                    className="rounded-md w-contain h-full object-center"
                     src={`/images/projects/${project.img}.png`}
                     alt=""
                   />
